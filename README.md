@@ -2,7 +2,7 @@
 
 Team 7:
 Isabel Gan
-Nicholas Brooks
+Nicholas Brooks - Integration and Differentiation
 Brendon Reynolds
 Adam Crutchfield
 
