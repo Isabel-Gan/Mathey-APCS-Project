@@ -8,7 +8,7 @@ Nicholas Brooks - Integration and Differentiation
 
 Brendon Reynolds
 
-Adam Crutchfield
+Adam Crutchfield - Geometry
 
 Update the repo as you go so I can watch the progress.
 
