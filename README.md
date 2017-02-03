@@ -6,7 +6,7 @@ Isabel Gan
 
 Nicholas Brooks - Integration and Differentiation
 
-Brendon Reynolds
+Brendon Reynolds - Quadratic Formula and Properties of Numbers
 
 Adam Crutchfield - Geometry
 
