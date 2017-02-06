@@ -76,21 +76,23 @@ public class Polynomial {
 
 				}
 				
-				if (!exponent.equals("")) {
+				if (!exponent.equals("") && temp != "") {
 					exponent_num = Integer.parseInt(exponent);
 					coefficent_num = Integer.parseInt(coefficent) * exponent_num;
 					exponent_num--;
 					derivative = coefficent_num + temp + exponent_num;
+					
 
-				} else { //if there's no exponent, i.e. 9x
+				} else if (temp != "") { //if there's no exponent, i.e. 9x
 					coefficent_num = Integer.parseInt(coefficent);
 					derivative = coefficent_num + "";
 				}
 
 				//if it's not the first monomial, a sign needs to be printed
-				if (i != 0) {
+				if (i != 0 && temp != "") {
 					System.out.print(" " + sign + " " + derivative);
-				} else {
+				}
+				else if (temp != ""){
 					System.out.print(derivative + " ");
 				}
 				
