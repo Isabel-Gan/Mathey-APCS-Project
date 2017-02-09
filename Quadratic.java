@@ -39,6 +39,7 @@ public class Quadratic
 		{
 			root1 = (-b + Math.sqrt((b*b) - (4*a*c)))/(2*a);
 			root2 = (-b - Math.sqrt((b*b) - (4*a*c)))/(2*a);
+			
 			//round the roots to the thousandth place
 			root1 = Math.round(root1 * 1000.0) / 1000.0;
 			root2 = Math.round(root2 * 1000.0) / 1000.0;
