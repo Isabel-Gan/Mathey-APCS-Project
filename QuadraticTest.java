@@ -6,6 +6,8 @@ public class QuadraticTest
 	{
 		String again;
 		Scanner kbReader = new Scanner(System.in);
+		
+		//allows the user to do more than one polynomial
 		do
 		{
 			Quadratic poly1 = new Quadratic();
