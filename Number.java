@@ -16,7 +16,6 @@ public class Number
 	public Number(int a)
 	{
 		number = a; 
-		
 	}
 	
 	//This method finds if the number is odd or even
@@ -34,16 +33,16 @@ public class Number
 	public String isPrime()
 	{
 		for(int i=2;i<number;i++) 
-        {
-            if(number%i==0)
-            {
-            	prime = "The number is not a prime number. ";
-            	break;
-            }
-            else
-            	prime = "The number is a prime number. ";
-        }
-        return prime;
+        	{
+            		if(number%i==0)
+            		{
+            		prime = "The number is not a prime number. ";
+            		break;
+            		}
+            	else
+            		prime = "The number is a prime number. ";
+        	}
+        	return prime;
 	}
 	
 	//This method finds the factors of the number
